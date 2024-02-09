@@ -9,9 +9,10 @@ To run the service locally using environment variables we need to create .env fi
 To run this service using docker we need to pass env variables while creating the docker container.
 Following are the env varibales used in the service.
 
--PORT: The port number is retrieved from an environment variable.
--CREDENTIALS: base 64 encoded google drive api credentials
--GOOGLE_API_DRIVE_SCOPE_URL:   google drive scope api url
+- PORT: The port number is retrieved from an environment variable.
+- CREDENTIALS: base 64 encoded google drive api credentials
+- GOOGLE_API_DRIVE_SCOPE_URL:   google drive scope api url
+
 
 ## Installation
 
@@ -75,6 +76,8 @@ Response
 
 - [Express](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js.
 - [googleapis](https://github.com/googleapis/google-api-nodejs-client): Google APIs client library for Node.js.
+- [dotenv](https://www.npmjs.com/package/dotenv): Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
+- [fs](https://nodejs.org/api/fs.html): The fs module provides an API for interacting with the file system in a manner closely modeled around standard POSIX functions.
 
 ## Authors
 
